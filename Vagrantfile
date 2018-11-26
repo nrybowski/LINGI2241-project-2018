@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision :shell, path:"bootstrap.sh"
 
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "LINGI2241-project-2018"
+    vb.name = "LINGI2241-project-2018VM"
     vb.memory = 4096
     vb.cpus = 2
 
