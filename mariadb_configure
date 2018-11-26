@@ -1,0 +1,2 @@
+CREATE USER 'vagrant';
+GRANT ALL PRIVILEGES ON employees.* TO 'vagrant' IDENTIFIED BY 'yhn678UJ?';
