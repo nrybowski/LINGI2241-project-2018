@@ -11,7 +11,7 @@ cd test_db && mysql < employees.sql && mysql -t < test_employees_sha.sql
 mysql < /vagrant/mariadb_configure
 
 # installing some recommended tools
-apt-get install -y nethogs netsniff-ng sysstat iotop
+apt-get install -y nethogs netsniff-ng sysstat iotop htop
 
 # installing perf
 apt-get install -y linux-tools
